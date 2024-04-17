@@ -27,6 +27,11 @@ export default function Home() {
     <p className="mb-3 font-normal">En esta sección podrás generar matrices y parámetros</p>
 
 </Link>
+<Link className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100" href="/tarea4">
+        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Generador de Código Dual</h5>
+    <p className="mb-3 font-normal">En esta sección podrás generar códigos duales</p>
+
+</Link>
 </div>
 
       </div>
