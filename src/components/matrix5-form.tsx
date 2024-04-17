@@ -68,6 +68,7 @@ export function Matrix5Form() {
         code: codigos,
       })
     }).then(async (res:any) => {
+      console
       const blob = await res.blob();
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
@@ -121,7 +122,7 @@ export function Matrix5Form() {
         <h1 className="text-4xl mx-auto max-w-[600px] mb-10 font-bold text-warp text-center">Matrino: Generador de código dual</h1>
   
         <div className="flex flex-col gap-4 md:flex-row">
-            <Card className="w-full flex flex-col justify-center items-center h-fit">
+            <Card className="w-full flex flex-col justify-center items-center text-center h-fit">
               <CardHeader>
                 <CardTitle>Características Principales</CardTitle>
                 <CardDescription>
